@@ -1,11 +1,11 @@
 OrdererOrgs:
   - Name: OrdererOrg1
-    Domain: ordererorg1.nexledger.com
+    Domain: ordererorg1.rolroralra.com
     Specs:
       - Hostname: orderer1
 PeerOrgs:
   - Name: Org1
-    Domain: org1.nexledger.com
+    Domain: org1.rolroralra.com
     Template:
       Count: 1
       Start: 1
@@ -13,7 +13,7 @@ PeerOrgs:
     Users:
       Count: 1
   - Name: Org2
-    Domain: org2.nexledger.com
+    Domain: org2.rolroralra.com
     Template:
       Count: 1
       Start: 2
